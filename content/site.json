@@ -1,0 +1,16 @@
+{
+  "name": "TaskMetro",
+  "preview_url": "https://hayathkargal.github.io/taskmetro-preview/",
+  "production_url": "https://taskmetro.com/",
+  "email": "support@taskmetro.com",
+  "telephone": "+919353522929",
+  "telephone_display": "+91 93535 22929",
+  "whatsapp": "919353522929",
+  "city": "Bengaluru",
+  "region": "Karnataka",
+  "country": "IN",
+  "hours": "Monday–Saturday, 9am–6pm IST",
+  "base_fee": 199,
+  "runner_hourly": 249,
+  "web3forms_key": "a68679d4-57a2-4e06-84e8-58beb1e67818"
+}

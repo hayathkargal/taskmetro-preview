@@ -1,0 +1,19 @@
+{
+  "name": "taskmetro-preview",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static TaskMetro website; npm packages are development tools only.",
+  "scripts": {
+    "build": "python3 scripts/build_site.py",
+    "dev": "python3 scripts/serve.py",
+    "test": "python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.mjs",
+    "assets": "node scripts/render_social.cjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "jsdom": "30.1.3"
+  },
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  }
+}
